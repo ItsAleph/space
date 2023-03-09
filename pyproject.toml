@@ -1,0 +1,20 @@
+[project]
+name = "space"
+version = "0.1.0"
+description = "One package manager to rule 'rm all"
+authors = [
+    {name = "ItsAleph", email = "igorekkrupskij@gmail.com"},
+]
+dependencies = [
+    "typer[all]>=0.7.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
